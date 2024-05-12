@@ -1,0 +1,30 @@
+.main-body {
+  background-color: #313e51;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.circle {
+  outline: 100px solid #2d3949;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  top: -8rem;
+  left: -13rem;
+}
+
+.last-circle {
+  outline: 100px solid #2d3949;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -8rem;
+  right: -13rem;
+}
